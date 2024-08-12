@@ -5,7 +5,7 @@
 MedClassify is a data science project designed to automate the categorization of clinical trial abstracts using advanced natural language processing (NLP) techniques. The project utilizes the PubMed 200k RCT dataset to build a model capable of classifying abstracts into predefined sections like Background, Objective, Methods, Results, and Conclusions. This project demonstrates the end-to-end process of developing a machine learning model, from data exploration to deployment.
 
 
-## Title image
+
 
 ![title_image](images/title.png)
 
