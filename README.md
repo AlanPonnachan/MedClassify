@@ -7,7 +7,7 @@ MedClassify is a data science project designed to automate the categorization of
 
 ## Title image
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![title_image](images/title.png)
 
 
 ## Objectives
@@ -38,22 +38,26 @@ It contains:
 Gain insights into the dataset through exploratory data analysis (EDA).
 
 **Target class distribution**
-![target class distribution](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![target class distribution](images/target_distribution.png)
 
 The distribution appears to be imbalanced, with some classes having significantly higher counts than others. This class imbalance might impact the model's performance and requires careful consideration during training and evaluation.
 
 **Text length distribution by target class**
-![Text length distribution by target class](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![Text length distribution by target class](images/txt_length_dist_by_target.png)
 
 The plot reveals distinct text length distributions for each target class. Some classes might exhibit a preference for shorter or longer texts. 'total lines' and 'line numbers' are feature engineered.
 
 **Most common words in the input text**
-![Text length distribution by target class](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+![Text length distribution by target class](images/most_common_words.png)
 
   Bar chart illustrating the frequency of the most common words within a given text corpus. Words like "patients," "group," "study," and "treatment" have significantly higher frequencies, indicating a potential focus on medical or clinical research within the text data.
+  
 ## Conv1D with token embeddings (Model 1)
 
-![Conv1D with token embeddings (Model 1)](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Conv1D with token embeddings (Model 1)](images/token_embeddings.png)
 
 
 {'accuracy': 78.63100754667019,
@@ -62,7 +66,7 @@ The plot reveals distinct text length distributions for each target class. Some 
  'f1': 0.783878513978757}
 ## Conv1D with character embeddings (Model 2)
 
-![Conv1D with character embeddings (Model 1)](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Conv1D with character embeddings (Model 1)](images/character_embedding.png)
 
 
 {'accuracy': 63.89845094664371,
@@ -72,7 +76,7 @@ The plot reveals distinct text length distributions for each target class. Some 
 
 ## tribrid embedding (Model 3)
 
-![transfer learning](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![tribid_model](images/tribid.png)
 
 
 
@@ -80,9 +84,9 @@ The plot reveals distinct text length distributions for each target class. Some 
 
 **model Comparison across metrics**
 
-![model Comparison across metrics](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![model Comparison across metrics](images/model_comparison_meterics.png)
 
 
 **model Comparison (Radar chart)**
 
-![model Comparison across metrics](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![model Comparison across metrics](images/Radar_chart.png)
